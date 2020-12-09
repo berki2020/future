@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #eeeeee !important;
+    font-family: Roboto;
+    font-size: 18px;
+}
+header {
+    background: url("images/tooth.png") 0 0 repeat;
+    height: 229px;
+    margin-bottom: 36px;
+}
+footer {
+    height: 136px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 960px !important;
+}
+
+.top_text {
+    padding-top: 34px;
+    padding-bottom: 40px;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.top_picture {
+    background-image: url("images/logo.png");
+    width:163px;
+    height:172px;
+    margin-top: 23px;
+    margin-bottom: 35px;
+}
+.bot_picture {
+    background-image: url("images/logo_bot.png");
+    width:101px;
+    height:106px;
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+.email, .phone, .adress {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.bot_text {
+    padding-top: 44px;
+    padding-left: 37px;
+}
+.bot_text p {
+    line-height: 0.4;
+}
+
+.email a, .adress a {
+    text-decoration: underline;
+    color: black;
+}
+
+.comment {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 300;
+}
+
+.form_comment {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.rectangle {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgba(249, 249, 249, 0);
+    width: 461px;
+    height: 134px;
+    resize: none;
+}
+
+.btn_1 {
+    font-size: 18px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 134px;
+    height: 44px;
+    position:relative;
+    left: 327px;
+    top: 10px;
+    margin-bottom: 54px;
+}
+
+.btn_1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.your_comment {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+}
+.input_1 {
+    border: none;
+    border-radius: 4px;
+    width: 461px;
+    height: 44px;
+}
+.input_1:focus {
+    outline: 0;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+.time {
+    padding-left: 15px;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.savva_comment {
+    font-family: "Roboto light";
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
